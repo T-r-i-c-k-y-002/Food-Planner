@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Food Site ❤️</title>
+        <link rel="stylesheet" href="assests/css/style.css">
+        <script src="https://kit.fontawesome.com/ab8d547756.js" crossorigin="anonymous"></script>
+
+        <!--<script>
+            document.addEventListener('DOMContentLoaded',() => {
+                
+                let heading = document.body.children[0].children[0];
+                let image = document.body.children[0].children[1];
+                heading.innerHTML = "Welcome";
+                var i = `Image Size : ${image.offsetWidth},${image.offsetHeight}`;
+                console.log(heading);
+                console.log(i);
+                console.log(document.getElementById('event'));
+
+            })
+
+            window.onload = function(){
+                let image = document.body.children[0].children[1];
+                let result = `Image Size : ${image.offsetWidth},${image.offsetHeight}`;
+                console.log(image);
+                console.log(result);
+            }
+        </script>-->
+    </head>
+
+    <body>
+       <header>
+        🍒FoodCook Planner
+        <a href="./about.html" style="font-size: 10px; padding: 2px 10px; color: black;">credits -> </a>
+        <a href="./feedback.html" style="font-size: 10px; padding: 2px 10px; color: black;">Feedback -> </a>
+       </header>
+        <main id="main">
+           <!--<div class="alert">
+            <div class="alert-message">
+                <strong>✅ Successful !!!</strong>Food Is Updated!
+            </div>
+            <button type="button"><i class="fa-solid fa-xmark" id="bn"></i></button>
+           </div>-->
+            <div class="input-container">
+                <input type="text" placeholder="Fav Foods..." class="input-food" id="input-food">
+                <button class="input-button" id="input-btn">Save</button>
+            </div>
+            <section>
+                <div id="food-count-list"></div>
+                <ul id="food-container" class="food-container">
+                    <!--<li class="food-item">
+                         <div>sambar</div>
+                         <div onclick="return removeItem(event)"><i class="fa-solid fa-xmark"></i></div>
+                     </li>
+                     <li class="food-item">
+                         <div>Lemon Rice</div>
+                         <div onclick="return removeItem(event)"><i class="fa-solid fa-xmark"></i></div>
+                     </li>
+                     <li class="food-item">
+                         <div>Curd Rice</div>
+                         <div onclick="return removeItem(event)"><i class="fa-solid fa-xmark"></i></div>
+                     </li>--> 
+                 </ul>
+                 <div id="no-list">
+                     <img src="https://cdni.iconscout.com/illustration/premium/thumb/empty-state-concept-3428212-2902554.png" alt="Not Found">
+                     <h6>Create Your List...!!!</h6>
+                 </div>
+            </section>
+                <!--<div id="duplicate"></div>
+                <button type="submit" id="sam">update</button>-->
+                <!--learning-->
+
+            <!--END-->
+        </main>
+        <script src="assests/JS/sam.js"></script>
+      
+    </body>
+</html>
